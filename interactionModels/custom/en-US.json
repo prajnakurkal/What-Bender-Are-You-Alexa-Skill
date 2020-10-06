@@ -1,0 +1,536 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "avatar bender quiz",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "StartQuizIntent",
+          "slots": [],
+          "samples": [
+            "yes let\u0027s start",
+            "yea let\u0027s start",
+            "uh huh",
+            "mhm",
+            "ye",
+            "yea",
+            "let\u0027s start",
+            "start quiz",
+            "start",
+            "sure",
+            "let\u0027s start the quiz",
+            "yes"
+          ]
+        },
+        {
+          "name": "AnswerIntent",
+          "slots": [
+            {
+              "name": "airSlot",
+              "type": "air"
+            },
+            {
+              "name": "waterSlot",
+              "type": "water"
+            },
+            {
+              "name": "earthSlot",
+              "type": "earth"
+            },
+            {
+              "name": "fireSlot",
+              "type": "fire"
+            },
+            {
+              "name": "fireAirNon",
+              "type": "fireAirNon"
+            },
+            {
+              "name": "nonbender",
+              "type": "nonbender"
+            },
+            {
+              "name": "fireEarth",
+              "type": "fireEarth"
+            },
+            {
+              "name": "fireEarthNon",
+              "type": "fireEarthNon"
+            },
+            {
+              "name": "waterAir",
+              "type": "waterAir"
+            },
+            {
+              "name": "waterAirNon",
+              "type": "waterAirNon"
+            },
+            {
+              "name": "waterEarth",
+              "type": "waterEarth"
+            }
+          ],
+          "samples": [
+            "{waterEarth}",
+            "{waterAirNon}",
+            "{waterAir}",
+            "{fireEarthNon}",
+            "{fireEarth}",
+            "{nonbender}",
+            "{fireAirNon}",
+            "{fireSlot}",
+            "{earthSlot}",
+            "{waterSlot}",
+            "{airSlot} "
+          ]
+        },
+        {
+          "name": "NoIntent",
+          "slots": [],
+          "samples": [
+            "no i\u0027m good",
+            "i\u0027m okay",
+            "no ma\u0027am",
+            "nope",
+            "nah",
+            "no thank you",
+            "i\u0027m good",
+            "no"
+          ]
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": [
+            "say that again please",
+            "say that again",
+            "what did you say",
+            "please repeat that",
+            "what\u0027d you say",
+            "repeat",
+            "can you repeat that"
+          ]
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "guru prathik"
+              }
+            },
+            {
+              "name": {
+                "value": "zaheer"
+              }
+            },
+            {
+              "name": {
+                "value": "reading"
+              }
+            },
+            {
+              "name": {
+                "value": "jinora"
+              }
+            },
+            {
+              "name": {
+                "value": "flying lemur"
+              }
+            },
+            {
+              "name": {
+                "value": "flying"
+              }
+            },
+            {
+              "name": {
+                "value": "calm"
+              }
+            },
+            {
+              "name": {
+                "value": "aang"
+              }
+            }
+          ],
+          "name": "air"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "family oriented"
+              }
+            },
+            {
+              "name": {
+                "value": "korra"
+              }
+            },
+            {
+              "name": {
+                "value": "tarlok"
+              }
+            },
+            {
+              "name": {
+                "value": "baths",
+                "synonyms": [
+                  "take a bath",
+                  "bath"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "varrick"
+              }
+            },
+            {
+              "name": {
+                "value": "polar bear dog"
+              }
+            },
+            {
+              "name": {
+                "value": "shape shifting"
+              }
+            },
+            {
+              "name": {
+                "value": "katara"
+              }
+            }
+          ],
+          "name": "water"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "kyoshi",
+                "synonyms": [
+                  "avatar kyoshi"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "suki"
+              }
+            },
+            {
+              "name": {
+                "value": "kuvira"
+              }
+            },
+            {
+              "name": {
+                "value": "going on a hike",
+                "synonyms": [
+                  "hike"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "bolin"
+              }
+            },
+            {
+              "name": {
+                "value": "badgermole"
+              }
+            },
+            {
+              "name": {
+                "value": "super strength"
+              }
+            },
+            {
+              "name": {
+                "value": "down to earth"
+              }
+            },
+            {
+              "name": {
+                "value": "toph"
+              }
+            }
+          ],
+          "name": "earth"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "roku"
+              }
+            },
+            {
+              "name": {
+                "value": "mai",
+                "synonyms": [
+                  "may"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "vaatu"
+              }
+            },
+            {
+              "name": {
+                "value": "candlelit dinner"
+              }
+            },
+            {
+              "name": {
+                "value": "mako"
+              }
+            },
+            {
+              "name": {
+                "value": "dragon"
+              }
+            },
+            {
+              "name": {
+                "value": "reading minds"
+              }
+            },
+            {
+              "name": {
+                "value": "brash"
+              }
+            },
+            {
+              "name": {
+                "value": "zuko"
+              }
+            }
+          ],
+          "name": "fire"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "the earth king\u0027s bear",
+                "synonyms": [
+                  "the bear",
+                  "bear",
+                  "earth king\u0027s bear"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "wan"
+              }
+            },
+            {
+              "name": {
+                "value": "jet"
+              }
+            },
+            {
+              "name": {
+                "value": "amon"
+              }
+            },
+            {
+              "name": {
+                "value": "sleeping"
+              }
+            },
+            {
+              "name": {
+                "value": "asami"
+              }
+            },
+            {
+              "name": {
+                "value": "invisibility"
+              }
+            },
+            {
+              "name": {
+                "value": "loyal"
+              }
+            },
+            {
+              "name": {
+                "value": "sokka"
+              }
+            }
+          ],
+          "name": "nonbender"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "white"
+              }
+            },
+            {
+              "name": {
+                "value": "white lotus"
+              }
+            },
+            {
+              "name": {
+                "value": "the white lotus"
+              }
+            }
+          ],
+          "name": "fireAirNon"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "red"
+              }
+            },
+            {
+              "name": {
+                "value": "red lotus"
+              }
+            },
+            {
+              "name": {
+                "value": "the red lotus"
+              }
+            }
+          ],
+          "name": "waterEarth"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "avatar the last airbender"
+              }
+            },
+            {
+              "name": {
+                "value": "t. l. a."
+              }
+            },
+            {
+              "name": {
+                "value": "last airbender"
+              }
+            },
+            {
+              "name": {
+                "value": "the last airbender"
+              }
+            }
+          ],
+          "name": "waterAir"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "l. o. k."
+              }
+            },
+            {
+              "name": {
+                "value": "the legend of korra"
+              }
+            },
+            {
+              "name": {
+                "value": "legend of korra"
+              }
+            }
+          ],
+          "name": "fireEarthNon"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "spirit"
+              }
+            },
+            {
+              "name": {
+                "value": "spirit world"
+              }
+            },
+            {
+              "name": {
+                "value": "in the spirit world"
+              }
+            },
+            {
+              "name": {
+                "value": "the spirit world"
+              }
+            }
+          ],
+          "name": "waterAirNon"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "material"
+              }
+            },
+            {
+              "name": {
+                "value": "material world"
+              }
+            },
+            {
+              "name": {
+                "value": "in the material world"
+              }
+            },
+            {
+              "name": {
+                "value": "the material world"
+              }
+            }
+          ],
+          "name": "fireEarth"
+        }
+      ],
+      "modelConfiguration": {
+        "fallbackIntentSensitivity": {
+          "level": "LOW"
+        }
+      }
+    }
+  },
+  "version": "15"
+}

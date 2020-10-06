@@ -1,0 +1,69 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "A quiz based Alexa Skill that allows users to determine what bender they are in the Avatar the Last Airbender universe",
+          "examplePhrases": [
+            "Alexa open avatar bender quiz",
+            "Alexa play avatar bender quiz"
+          ],
+          "keywords": [],
+          "name": "What Bender are You?",
+          "description": "The skill asks the user a series of questions pertaining to the Avatar universe created by Michael Dante DiMartino and Bryan Konietzko. Then analyzes the user\u0027s answers and maps it on to a point system that helps determine the users bending class. The point system finds the correlation between the user\u0027s personality traits and the overall personality traits that align with each type of bender.",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "sourceLocaleForLanguages": [
+          {
+            "sourceLocale": "en-US",
+            "language": "en"
+          }
+        ],
+        "isActive": true
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:818407399334:function:692c659c-e278-413d-9fb5-d88a1b0df888:Release_0"
+        },
+        "interfaces": [],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:818407399334:function:692c659c-e278-413d-9fb5-d88a1b0df888:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:818407399334:function:692c659c-e278-413d-9fb5-d88a1b0df888:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:818407399334:function:692c659c-e278-413d-9fb5-d88a1b0df888:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
